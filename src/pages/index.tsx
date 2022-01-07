@@ -6,8 +6,6 @@ type Props = {
   title: string
 }
 
-const bla = 'teste'
-
 export default function Home({ title = 'Boilerplate for Next.js!' }: Props) {
   return (
     <div className={styles.container}>
